@@ -1,4 +1,9 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Palamri the Baker's Password Protected Safe
+## A small web based minigame for the Electric Bastionland adventure **The Yeast Abyss**
+
+By Colin Fahrion
+
+I created this as a small Svelte experiment for an adventure I was running for Electric Bastionland. Password is modifiable as is the keyboard layout.
 
 ---
 
