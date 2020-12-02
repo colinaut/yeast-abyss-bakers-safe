@@ -3,7 +3,8 @@
     import { onMount } from 'svelte';
 
     export let text = false
-    export let duration = text.length * 80;
+    const textBasedDuration = text.length * 80
+    export let duration = (textBasedDuration > 4000) ? textBasedDuration : 4000;
     export let color
 
     const delay = m => new Promise(r => setTimeout(r, m))
